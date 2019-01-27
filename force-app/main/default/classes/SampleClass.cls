@@ -1,6 +1,9 @@
 public with sharing class SampleClass {
     public SampleClass() {
-        System.Debug('Some Debug');
-        System.Debug('Some Debug');
+        System.Debug(addNumber(2,5));
+    }
+
+    public Integer addNumber(Integer a, Integer b){
+        return a+b;
     }
 }
